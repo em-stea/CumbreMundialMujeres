@@ -81,11 +81,14 @@
   }
   /*Initiative*/
   .card-body-bio {
-    padding: 0 13px;
+    padding: 0 13px 23px 13px;
   }
   /*Video Espacio precumbre Esmeraldas*/
   .video-responsive {
     width: 300px;
+  }
+  .bg-title-video-pre h1 {
+    padding-top: 1.5em;
   }
   /*Noticias
   .carousel-video {
