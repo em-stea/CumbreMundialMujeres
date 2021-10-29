@@ -440,10 +440,6 @@ button:focus:not(:focus-visible) {
   color: #b203a4;
   font-weight: 500;
 }
-.text-color-bio {
-  color: #3c1486;
-  font-weight: 500;
-}
 .text-bold-bio {
   color: #d20183;
   font-weight: 500;
