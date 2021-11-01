@@ -287,9 +287,10 @@ button:focus:not(:focus-visible) {
   padding: 0 14px;
 }
 .bg-title-video h1 span {
-  background: linear-gradient(to top, #31116d, #da02c5);
+  /*background: linear-gradient(to top, #31116d, #da02c5);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;*/
+  color: #5d399f;
 }
 .video {
   padding-top: 31.25%; /* Relación: 16/9 = 56.25% */
@@ -664,14 +665,17 @@ button:focus:not(:focus-visible) {
 .text-form-rounded {
   font-size: 30px;
   font-weight: 800;
-  background: linear-gradient(#bd00cf, #3c1486);
+  /*background: linear-gradient(#bd00cf, #3c1486);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: tomato;
+  -webkit-text-fill-color: transparent;*/
+  color: #3c1486;
   width: 50%;
   margin: auto;
   margin-top: 2em;
   margin-bottom: 1em;
+}
+.text-form-rounded span {
+  color: #9d01ab;
 }
 .galery-icon {
   width: 45%;
