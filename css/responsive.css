@@ -180,3 +180,17 @@
     margin-top: 1em;
   }
 }
+@media screen and (max-width: 340px) {
+  /*Video Espacio precumbre Esmeraldas*/
+  .video-precumbre {
+    width: auto;
+    height: auto;
+  }
+  .box-video-pre {
+    text-align: center;
+  }
+  .bg-title-video-pre h1 {
+    text-align: center;
+    margin-top: 1em;
+  }
+}
