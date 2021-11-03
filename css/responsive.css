@@ -84,8 +84,9 @@
     padding: 0 13px 23px 13px;
   }
   /*Video Espacio precumbre Esmeraldas*/
-  .video-responsive {
-    width: 300px;
+  .video-precumbre {
+    width: 310px;
+    height: auto;
   }
   .bg-title-video-pre h1 {
     padding-top: 1.5em;
