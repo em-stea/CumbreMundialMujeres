@@ -840,3 +840,6 @@ footer a {
 .privacy-doc {
   margin-bottom: 5em;
 }
+.privacy-doc p {
+  font-size: 15px;
+}
