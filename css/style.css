@@ -778,13 +778,18 @@ footer a {
   border-radius: 7px;
   width: 100%;
 }
+.text-privacy {
+  text-decoration: underline;
+  text-align: left;
+}
+.text-copy {
+  text-align: left;
+}
 .copyright {
   background: #3c1486;
-  padding: 2em;
+  padding: 2em 0em 1em 6em;
   font-size: 12px;
-  padding-bottom: 0;
   color: white;
-  /*margin: 0;*/
   margin-top: 13em;
 }
 .copyright a {
@@ -823,4 +828,15 @@ footer a {
 }
 #scrollUp:hover {
   background: url(../images/arrow-up-hover.svg);
+}
+
+/*Políticas de Privacidad*/
+.privacy-doc h2 {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  color: #3c1486;
+  font-weight: 800;
+}
+.privacy-doc {
+  margin-bottom: 5em;
 }
