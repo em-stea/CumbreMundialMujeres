@@ -1,5 +1,8 @@
 /*Responsive*/
 @media screen and (max-width: 470px) {
+  .button-register {
+    padding: 10px;
+  }
   /*Countdown Counter*/
   .simply-section {
     width: 100px;
