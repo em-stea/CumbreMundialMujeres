@@ -1,5 +1,8 @@
 /*Responsive*/
 @media screen and (max-width: 470px) {
+  #navbarNavAltMarkup a {
+    padding: 5px 11px;
+  }
   .button-register {
     width: 40%;
     text-align: center;
