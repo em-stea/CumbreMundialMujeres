@@ -34,12 +34,18 @@ body {
   font-size: 13px;
   background-color: #6f008f;
 }
-.button-register {
+.button-entradas {
   background: linear-gradient(to left, #f301da, #d300bd 50%);
-  padding: 9px 14px 9px 14px;
+  padding: 9px 16px 9px 16px;
   border-radius: 2px;
   font-size: 16px;
   box-shadow: 4px 4px 3px 0px rgb(0 0 0 / 18%);
+  color: white;
+  font-weight: 600;
+}
+.button-entradas:hover {
+  background: white;
+  color: #3c1486 !important;
 }
 #navbarNavAltMarkup a {
   color: white;
@@ -689,50 +695,7 @@ button:focus:not(:focus-visible) {
   margin: auto;
   margin-bottom: 2em;
 }
-/*
-.box-icon {
-  width: 95%;
-  margin: 0 auto;
-  margin-bottom: 40px;
-  position: relative;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-.box-icon .icon {
-  width: 90px;
-  height: 90px;
-  background: rgba(0, 0, 0, 0.04);
-  display: table;
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-.box-icon .icon i {
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 40px;
-  line-height: 40px;
-  color: #a57aba;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-.box-icon:hover .icon,
-.box-icon:focus .icon {
-  background: linear-gradient(#f301da, #3c1486);
-}
-.box-icon:hover .icon i,
-.box-icon:focus .icon i {
-  color: #fff;
-}*/
+
 /*Footer*/
 #footer-bg-img {
   background-image: url("../images/img_bg_footer.jpg");
@@ -779,11 +742,15 @@ footer a {
   width: 200px;
 }
 .btn-gradient-footer {
-  background: linear-gradient(#f301da, #88037a);
+  background: linear-gradient(#f301da#f301da, #88037a);
   color: white;
   font-weight: 600;
   border-radius: 7px;
   width: 100%;
+}
+.button-entradas-footer {
+  width: 40%;
+  margin: 1em auto;
 }
 .text-privacy {
   text-decoration: underline;
@@ -849,4 +816,42 @@ footer a {
 }
 .privacy-doc p {
   font-size: 15px;
+}
+
+/*Entradas*/
+.title-entradas {
+  color: #3c1486;
+  font-weight: 700;
+  text-align: center;
+  margin: 1em 0;
+}
+.title-entradas span {
+  color: #ce00ca;
+}
+.img-entrada {
+  width: 80%;
+  margin: 3em 0 1em 0;
+}
+.img-entrada-gratis {
+  width: 40%;
+  margin: 3em 0 1em 0;
+}
+.btn-entrada {
+  background: linear-gradient(#f301da, #d300bd, #3c1486);
+  color: white;
+  width: 35%;
+  font-weight: 700;
+  border: none;
+  margin: auto;
+  border-radius: 5px;
+}
+.btn-entrada-gratis {
+  width: 15% !important;
+}
+.btn-entrada:hover {
+  background: #3c1486;
+  color: white;
+}
+.box-entrada {
+  text-align: center;
 }
