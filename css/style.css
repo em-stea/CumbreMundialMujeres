@@ -738,6 +738,9 @@ footer a {
   color: white;
   text-decoration: none;
 }
+footer a:hover {
+  color: #f301da;
+}
 .footer-form {
   width: 200px;
 }
@@ -844,6 +847,8 @@ footer a {
   border: none;
   margin: auto;
   border-radius: 5px;
+  text-decoration: none;
+  display: block;
 }
 .btn-entrada-gratis {
   width: 15% !important;

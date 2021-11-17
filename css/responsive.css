@@ -169,6 +169,17 @@
   .column-footer-second {
     padding-right: 0;
   }
+
+  /*Entradas*/
+  .img-entrada-gratis {
+    width: 80%;
+  }
+  .hotmart__button-checkout {
+    width: 65% !important;
+  }
+  .btn-entrada-gratis {
+    width: 65% !important;
+  }
 }
 @media screen and (min-width: 470px) and (max-width: 1000px) {
   /*Video Espacio precumbre Esmeraldas*/
