@@ -47,16 +47,39 @@ body {
   background: white;
   color: #3c1486 !important;
 }
+.button-entradas-mobile {
+  background: #3c1486;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  padding: 19px 0;
+}
+.button-entradas-mobile:hover {
+  background: #d300bd;
+  color: white !important;
+}
 .button-register {
   background: white;
   padding: 9px 16px 9px 16px;
   border-radius: 2px;
   font-size: 16px;
+  font-weight: 600;
   box-shadow: 4px 4px 3px 0px rgb(0 0 0 / 18%);
   color: #3c1486 !important;
 }
 .button-register:hover {
   background: #d20183;
+  color: white !important;
+}
+.button-register-mobile {
+  background: #d10184;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 18px 0;
+}
+.button-register-mobile:hover {
+  background: #3c1486;
   color: white !important;
 }
 #navbarNavAltMarkup a {

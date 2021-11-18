@@ -180,6 +180,9 @@
   .hotmart__button-checkout {
     width: 65% !important;
   }
+  .btn-entrada {
+    width: 65% !important;
+  }
   .btn-entrada-gratis {
     width: 65% !important;
   }
@@ -196,6 +199,17 @@
   .bg-title-video-pre h1 {
     text-align: center;
     margin-top: 1em;
+  }
+
+  /*Entradas*/
+  .img-entrada-gratis {
+    width: 80%;
+  }
+  .btn-entrada {
+    width: 45% !important;
+  }
+  .btn-entrada-gratis {
+    width: 45% !important;
   }
 }
 @media screen and (max-width: 340px) {
