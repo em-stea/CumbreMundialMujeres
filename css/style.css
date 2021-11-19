@@ -510,6 +510,18 @@ button:focus:not(:focus-visible) {
 .row-card-speakers .card {
   background: transparent;
 }
+
+/*Directors*/
+.row-directors {
+  padding: 60px 0;
+  background: linear-gradient(to right, #3c1486, #962dd9);
+  color: white;
+  margin-bottom: 2em;
+  text-align: center;
+}
+.row-directors h1 {
+  font-weight: 800;
+}
 /*Video Espacio precumbre Esmeraldas*/
 .img_bg_video {
   background-image: url("../images/img_bg_video.jpg");
@@ -657,40 +669,6 @@ button:focus:not(:focus-visible) {
 .btn-primary:active {
   background: #910182;
   border-color: #910182;
-}
-/*Carousel Ya nos han acompañado*/
-.title-galery-two h1 {
-  font-size: 50px;
-  font-weight: 800;
-  background: linear-gradient(#d20183, #3c1486);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-  margin-top: 2em;
-  margin-bottom: 1em;
-}
-
-.bottom-gallery {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.bottom-gallery div > img {
-  max-width: 100%;
-  display: block;
-}
-
-.bottom-gallery div {
-  margin: 10px;
-  flex-basis: 180px;
-}
-.item {
-  transition: 0.5s ease-in-out;
-}
-.item:hover {
-  filter: brightness(80%);
 }
 
 /*Counter Banner*/
