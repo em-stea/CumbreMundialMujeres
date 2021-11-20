@@ -4,7 +4,6 @@
     padding: 5px 11px;
   }
   .button-register {
-    width: 40%;
     text-align: center;
   }
   /*Countdown Counter*/
@@ -229,7 +228,6 @@
   .hotmart__button-checkout {
     width: 65% !important;
   }
-}
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
   /*Video Espacio precumbre Esmeraldas*/
   .video-precumbre {
