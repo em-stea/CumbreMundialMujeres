@@ -82,6 +82,17 @@ body {
   background: #3c1486;
   color: white !important;
 }
+.button-itinerario {
+  background: linear-gradient(to right, #3c1486, #b203a4);
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 30px 0;
+}
+.button-itinerario:hover {
+  background: #3c1486;
+  color: white !important;
+}
 #navbarNavAltMarkup a {
   color: white;
   font-weight: 600;
@@ -873,4 +884,11 @@ footer a:hover {
 }
 .box-entrada {
   text-align: center;
+}
+
+/*Carousel itinerario*/
+.carousel-itinerario {
+  margin-top: 8em;
+  margin-bottom: 9em;
+  width: 50%;
 }
