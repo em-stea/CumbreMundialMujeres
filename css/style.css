@@ -111,6 +111,12 @@ button:focus:not(:focus-visible) {
   display: flex;
   justify-content: center;
 }
+.text-countdown {
+  color: white;
+  text-align: center;
+  font-weight: 800;
+  padding-top: 1.5em;
+}
 .simply-section {
   background-color: #fafafa;
   width: 150px;

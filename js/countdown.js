@@ -1,10 +1,10 @@
 simplyCountdown("#countdown", {
   year: 2021, // required
   month: 11, // required
-  day: 22, // required
-  hours: 9, // Default is 0 [0-23] integer
-  minutes: 0, // Default is 0 [0-59] integer
-  seconds: 6, // Default is 0 [0-59] integer
+  day: 24, // required
+  hours: 15, // Default is 0 [0-23] integer
+  minutes: 3, // Default is 0 [0-59] integer
+  seconds: 0, // Default is 0 [0-59] integer
   words: {
     //words displayed into the countdown
     days: { singular: "Día", plural: "Días" },
