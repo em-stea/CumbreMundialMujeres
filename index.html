@@ -95,19 +95,37 @@
             <div>  
                 <nav class="navbar navbar-expand-lg navbar-dark">
                     <div class="container-fluid">
-                      <a class="navbar-brand logo" href="index.html"><img src="images/logo_cumbre.png" alt="logo, cumbre, mundial, mujeres" width="" height=""></a>
-                      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                        <div class="navbar-nav align-items-end">
-                          <a class="nav-link active" aria-current="page" href="#quienes-somos">¿QUIÉNES SOMOS?</a>
-                          <a class="nav-link" href="#que-hacemos">¿QUÉ HACEMOS?</a>
-                          <a class="nav-link" href="#nuestro-evento-anual">NUESTRO EVENTO ANUAL</a>
-                          <a class="nav-link" href="#patrocinadores">PATROCINADORES</a>
-                          <a class="nav-link button-entradas d-none d-md-block" href="entradas.html">Entradas aquí</a>
-                          <a class="nav-link button-register d-none d-md-block" href="https://feria.cumbremundialmujeres.com/pronto/MTE2">REGISTRATE</a>
-                        </div>
+                        <a class="navbar-brand logo" href="index.html">
+                            <img src="images/logo_cumbre.png" alt="logo, cumbre, mundial, mujeres" width="" height="">
+                        </a>
+                        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto mb-2 mb-lg-0 align-items-end">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#quienes-somos">¿QUIÉNES SOMOS?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#que-hacemos">¿QUÉ HACEMOS?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#nuestro-evento-anual">NUESTRO EVENTO ANUAL</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#patrocinadores">PATROCINADORES</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle button-revive" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Revive la Cumbre
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="cumbre-2019.html">2019</a></li>
+                                        <li><a class="dropdown-item" href="cumbre-2020.html">2020</a></li>
+                                        <li><a class="dropdown-item" href="cumbre-2021.html">2021</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
                       </div>
                     </div>
                   </nav>
@@ -121,45 +139,50 @@
             </video>
         </div>
         <!--Countdown Counter-->
+        <!--
         <div class="row countdown-row">
             <h1 class="text-countdown">¡Ya comenzó! Queda:</h1>
             <div id="countdown"></div>
-        </div>
+        </div>-->
         <div class="row text-center">
-            <a class="nav-link button-entradas-mobile d-block d-md-none" href="entradas.html">Entradas aquí</a>
+        <!--    <a class="nav-link button-entradas-mobile d-block d-md-none" href="entradas.html">Entradas aquí</a>
             <a class="nav-link button-register-mobile d-block d-md-none" href="https://feria.cumbremundialmujeres.com/pronto/MTE2">REGISTRATE</a>
-            <a class="nav-link button-itinerario" href="itinerario.html">ITINERARIO</a>
+            <a class="nav-link button-itinerario" href="itinerario.html">ITINERARIO</a>-->
         </div>
+        
     </div>
     <!--Quienes Somos--> 
     <div class="container px-3 container-text-section" id="quienes-somos">
         <div class="row" id="que-hacemos">
-            <div class="col-12 col-md-6">
-                <p id="left-title"><strong>¿QUIÉNES SOMOS?</strong></p>
+            <div class="col-12 col-md-6 mt-5">
+                <p id="left-title">¿QUIÉNES SOMOS?</p>
                 <p id="text">Somos una comunidad  de  profesionales, emprendedoras, con liderazgo político, unidas por el propósito de maximizar potenciales y transformar vidas.
                 </p>
                 <p id="text"><strong>Cumbre mundial de mujeres nace como una iniciativa de <a id="link_profile" href="https://www.linkedin.com/in/anita-fernández-espinosa-b4a22681/" target="_blank">Anita Fernández</a> </strong> (presidenta de la Fundación Mujeres sin Límites ) cuyo objetivo es apoyar a la mujer, a través de capacitaciones, mentoreo para su crecimiento personal y profesional.
                 </p>
             </div>
             <div class="col-12 col-md-6">
-                <img class="img-fluid" src="images/quienes_somos.jpg" alt="cumbre mujeres aplaudiendo">   
+                <img class="img-fluid img-quienes-somos" src="images/quienes_somos.jpg" alt="cumbre mujeres aplaudiendo">   
             </div>
         </div>
         <div class="row section-text-cmm">
             <div class="col-12 col-md-6">
-                <img class="img-fluid" src="images/que_hacemos.jpg" alt="speaker">   
+                <img class="img-fluid img-que-hacemos" src="images/que_hacemos.jpg" alt="speaker">   
             </div>
-            <div class="col-12 col-md-6">
-                <p id="right-title"><strong>¿QUÉ HACEMOS?</strong></p>
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                <p id="right-title">¿QUÉ HACEMOS?</p>
                 <p id="text">Creamos redes, alianzas profesionales y empresariales alrededor del mundo. Con el propósito de fomentar en cada mujer el deseo de superación y la elevación plena de sus propias potencialidades.
                 </p>
             </div>
         </div>
     </div>
-    <!--Qué encontrar--> 
+    <!--Que encontrar--> 
     <div class="container-fluid">
         <div class="row row-bg-title">
-            <p>UN EVENTO TRANSFORMADOR <span>EN EL QUE PODRÁS ENCONTRAR</span></p>
+            <p class="text-event">UN EVENTO TRANSFORMADOR 
+                <br>
+                <span>EN EL QUE PODRÁS ENCONTRAR</span>
+            </p>
         </div>
         <div class="row">
             <div class="col-md-4 text-center">
@@ -200,17 +223,23 @@
             </div>   
         </div>
     </div>
-    <div class="container">
-        <!--Video Previous Editions-->
-        <div class="row bg-title-video" id="nuestro-evento-anual">
-            <div class="col-md-6  m-auto">
-                <h1>REVIVE LAS EDICIONES ANTERIORES <span>DE LA CUMBRE MUNDIAL DE MUJERES</span></h1>
-            </div>
-            <div class="col-md-6 video">
-                <iframe width="600" height="400" src="https://www.youtube.com/embed/TGN3VyWNZro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+
+    <div class="container-fluid bg-light">
+        <div class="container">
+            <!--Video Previous Editions-->
+            <div class="row bg-title-video" id="nuestro-evento-anual">
+                <div class="col-md-6  m-auto">
+                    <h1>REVIVE LAS EDICIONES ANTERIORES <span>DE LA CUMBRE MUNDIAL DE MUJERES</span></h1>
+                </div>
+                <div class="col-md-6">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/TGN3VyWNZro" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+                </div>
             </div>
         </div>
     </div>
+
     <div class="container-fluid">
         <!--Ponentes-Speakers-->
         <div class="row row-speakers">
@@ -221,6 +250,10 @@
         </div>
     </div>
     <div class="container">
+        <div class="buttons-ponentes">
+            <a class="btn" href="cumbre-2019.html" role="button">Ponentes 2019</a>
+            <a class="btn" href="cumbre-2020.html" role="button">Ponentes 2020</a>
+        </div>
         <div class="row row-card-speakers">
             <div class="card col-12 col-md-3">
                 <img src="images/ponente-01.jpg" class="card-img-top" alt="Sila María Calderón">
@@ -1877,8 +1910,7 @@
         <!--want to be a sponsor?-->
         <div class="row text-center wantToSponsor">
         <h1><strong>QUIERO SER PATROCINADOR</strong></h1>
-        <!--  <a href="" class="mb-3">Completá el Formulario</a>-->
-            <div class="btn-wsp-form">
+            <div class='hover-action-wsp'>
                 <a href="https://api.whatsapp.com/send?phone=593983847124&text=%F0%9F%99%8B%E2%80%8D%E2%99%80%EF%B8%8F%20Hola%20Cumbre%20Mundial%20de%20Mujeres%20quiero%20ser%20Patrocinador"  target="_blank" class="btn-wsp-wantTo">
                     <i class="icon-whatsapp icono"></i>
                 </a>
@@ -2230,9 +2262,11 @@
             <!--Video Espacio precumbre Esmeraldas-->
             <div class="row bg-title-video-pre" id="nuestro-evento-anual">
                 <div class="col-12 col-md-6 box-video-pre">
-                    <iframe width="600" height="400" src="https://www.youtube.com/embed/3c2Tew1XiJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video-precumbre"></iframe>
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/3c2Tew1XiJ4" title="YouTube video player" allowfullscreen></iframe>
+                    </div>
                 </div>
-                <div class="col-md-6  m-auto">
+                <div class="col-md-6 m-auto text-precumbre">
                     <h1>REVIVE LA PRECUMBRE EN ESMERALDAS</h1>
                 </div>
             </div>
@@ -2245,21 +2279,31 @@
         </div>
         <div class="row bg-color-news pb-md-3">
             <div class="col-md-4 video-iframe-news">
-                <iframe src="https://www.youtube.com/embed/2fDWyagngSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/2fDWyagngSk" title="YouTube video player"allowfullscreen></iframe>
+                </div>
             </div>
             <div class="col-md-4 video-iframe-news">
-                <iframe src="https://www.youtube.com/embed/IW_ErCahxlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/IW_ErCahxlI" title="YouTube video player" allowfullscreen></iframe>
+                </div>
             </div>
             <div class="col-md-4 video-iframe-news">
-                <iframe src="https://www.youtube.com/embed/r89X3aFUBh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/r89X3aFUBh0" title="YouTube video player" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
-        <div class="row bg-color-news pb-5">
+        <div class="row bg-color-news pb-news">
             <div class="col-md-4 video-iframe-news">
-                <iframe src="https://www.youtube.com/embed/Q5o3ffj_7zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/Q5o3ffj_7zU" title="YouTube video player" allowfullscreen></iframe>
+                </div>
             </div>
             <div class="col-md-4 video-iframe-news">
-                <iframe src="https://www.youtube.com/embed/b7MXIaf9pVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/b7MXIaf9pVM" title="YouTube video player" allowfullscreen></iframe>
+                </div>
             </div>
             <div class="col-md-4">
             </div>
@@ -2541,7 +2585,7 @@
                   <h5 class="card-title-speakers"><strong>Flavia Dos Santos</strong></h5>
                     <p class="card-text-speakers-color">Brasil</p>
                     <!--Collapse-->
-                    <a class="btn btn-collapse" data-bs-toggle="collapse" href="#multiCollapseExample57" role="button" aria-expanded="false" aria-controls="multiCollapseExample57">
+                    <a class="btn btn-collapse" data-bs-toggle="collapse" href="#multiCollapseExample66" role="button" aria-expanded="false" aria-controls="multiCollapseExample66">
                         <span>Ver Bio</span>
                         <span class="arrow-style">
                             <i class="icon-keyboard_arrow_down"></i>
@@ -2549,7 +2593,7 @@
                     </a>
                     <div class="row">
                         <div class="col">
-                            <div class="collapse " id="multiCollapseExample57">
+                            <div class="collapse " id="multiCollapseExample66">
                                 <div class="card card-body card-text-speakers text-secondary">Autora de los Libros "Sexo sin misterio" y "Qué hago con el Sexo", premiados internacionalmente.
                                 </div>
                             </div>
@@ -2685,16 +2729,22 @@
             <div class="col-md-12 col-md-offset-1">
                 <div class="row box-counter">
                     <div class="col-md-3 col-sm-6 text-center">
-                        <h1><strong>100</strong></h1>
-                        <span>+ Speakers Internacionales</span>
+                        <h1>
+                            <span>+</span>
+                            <strong id="number">00</strong>
+                        </h1>
+                        <span class="text-counter">Speakers Internacionales</span>
                     </div>
                     <div class="col-md-3 col-sm-6 text-center">
-                        <h1><strong>3</strong></h1>
-                        <span >Días</span>
+                        <h1><strong id="number-2">0</strong></h1>
+                        <span class="text-counter">Días</span>
                     </div>
                     <div class="col-md-3 col-sm-6 text-center">
-                        <h1><strong>16</strong></h1>
-                        </span><span >+ Países</span>
+                        <h1>
+                            <span>+</span>
+                            <strong id="number-3">00</strong>
+                        </h1>
+                        <span class="text-counter">Países</span>
                     </div>
                 </div>
             </div>
@@ -2765,15 +2815,21 @@
                     <li>
                         <a href="#patrocinadores">Patrocinadores</a>
                     </li>
-                    <li class="button-entradas-footer">
-                        <a class="nav-link button-entradas" href="entradas.html">Entradas aquí</a>
+                    <li class="nav-item dropdown button-revive-footer">
+                        <a class="nav-link dropdown-toggle button-revive" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Revive la Cumbre
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="cumbre-2019.html">2019</a></li>
+                          <li><a class="dropdown-item" href="cumbre-2020.html">2020</a></li>
+                          <li><a class="dropdown-item" href="cumbre-2021.html">2021</a></li>
+                        </ul>
                     </li>
+                    <!--
                     <li class="button-entradas-footer">
-                        <a class="nav-link button-register" href="https://feria.cumbremundialmujeres.com/pronto/MTE2">REGISTRATE</a>
+                        <a class="nav-link button-itinerario" href="itinerario.html">ITINERARIO</a>
                     </li>
-                    <li class="button-entradas-footer">
-                        <a class="nav-link button-entradas" href="itinerario.html">ITINERARIO</a>
-                    </li>
+                    -->
                 </ul>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-6 align-footer column-footer-second">
@@ -2843,6 +2899,9 @@
 
     <!-- JQuery Fancybox cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+    <!--Counter-->
+    <script src="js/counter.js"></script>
 
   
 

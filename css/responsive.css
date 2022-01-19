@@ -55,11 +55,6 @@
   .bg-title-video h1 {
     padding-bottom: 20px;
   }
-  .video {
-    height: 0px;
-    width: 100%;
-    padding-top: 56.25%;
-  }
   /*Ponentes*/
   .row-speakers p {
     font-size: 14px;
@@ -90,27 +85,11 @@
     padding: 0 13px 23px 13px;
   }
   /*Video Espacio precumbre Esmeraldas*/
-  .video-precumbre {
-    width: 100%;
-    height: auto;
-  }
+
   .bg-title-video-pre h1 {
     padding-top: 1.5em;
   }
-  /*Noticias
-  .carousel-video {
-    width: 100%;
-    padding-bottom: 0;
-    margin-bottom: 3em;
-  }
-  .carousel-item iframe {
-    min-width: 100%;
-    height: 200px;
-  }*/
-  .video-iframe-news iframe {
-    width: 80%;
-    height: 160px;
-  }
+
   /*Team Carousel Photos*/
   .title-galery h1 {
     font-size: 30px;
@@ -136,10 +115,6 @@
   .text-form-participate h2 {
     font-size: 20px;
   }
-  /*.bottom-gallery {
-      flex-direction: column;
-      align-items: center;
-    }*/
   /*Rounded buttons*/
   .text-form-rounded {
     font-size: 18px;
@@ -188,12 +163,9 @@
 }
 @media screen and (min-width: 470px) and (max-width: 1000px) {
   /*Video Espacio precumbre Esmeraldas*/
-  .video-precumbre {
-    width: 310px;
-    height: auto;
-  }
   .box-video-pre {
     text-align: center;
+    padding: 0;
   }
   .bg-title-video-pre h1 {
     text-align: center;
@@ -210,13 +182,13 @@
   .btn-entrada-gratis {
     width: 45% !important;
   }
+  /*Counter Banner*/
+  .box-counter div {
+    margin-bottom: 2em;
+  }
 }
 @media screen and (max-width: 340px) {
   /*Video Espacio precumbre Esmeraldas*/
-  .video-precumbre {
-    width: auto;
-    height: auto;
-  }
   .box-video-pre {
     text-align: center;
   }
@@ -231,27 +203,64 @@
 }
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
   /*Video Espacio precumbre Esmeraldas*/
-  .video-precumbre {
-    width: 500px;
-    height: 300px;
-  }
   .box-video-pre {
     text-align: center;
   }
   .bg-title-video-pre h1 {
     text-align: center;
-    margin-top: 1em;
   }
 }
 @media screen and (max-width: 763px) {
   /*Carousel itinerario*/
   .button-itinerario {
-    padding: 18px 0;
+    padding: 35px 0;
     font-size: 20px;
   }
   .carousel-itinerario {
     margin-top: 8em;
     margin-bottom: 9em;
     width: 100%;
+  }
+  /*Imagenes Quienes somos - que hacemos*/
+  .img-quienes-somos {
+    margin-top: 2em;
+  }
+  .img-que-hacemos {
+    margin-bottom: 2em;
+  }
+  .row-bg-title {
+    margin-top: 2em;
+  }
+  .bg-title-video h1 {
+    margin-bottom: 1em;
+  }
+  /*Video precumbre*/
+  .text-precumbre {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 1em;
+  }
+  /*Galeria*/
+  .title-galery h1 {
+    margin-top: 1.5em;
+    padding-top: 0;
+  }
+  .text-form-rounded {
+    width: 95%;
+  }
+  .galery-icon {
+    width: auto;
+  }
+  .column-footer-second {
+    padding-right: 0;
+  }
+  /*Ponentes*/
+  .buttons-ponentes {
+    display: flex;
+    flex-direction: column;
+  }
+  .buttons-ponentes .btn {
+    margin-bottom: 1em;
+    margin-right: 0;
   }
 }
