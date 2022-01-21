@@ -202,6 +202,9 @@
   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 0.7rem;
+  }
   /*Video Espacio precumbre Esmeraldas*/
   .box-video-pre {
     text-align: center;
