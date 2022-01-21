@@ -39,6 +39,9 @@ body {
 .dropdown-menu {
   min-width: 12.4rem;
 }
+.dropdown-menu-footer {
+  min-width: 15.3rem;
+}
 .dropdown-precumbre {
   min-width: 9.2em;
 }
@@ -823,7 +826,7 @@ footer a:hover {
   width: 100%;
 }
 .button-revive-footer {
-  width: 40%;
+  width: 50%;
   margin: 1em auto;
   font-weight: 600;
 }

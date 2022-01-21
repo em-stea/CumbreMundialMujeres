@@ -187,7 +187,7 @@
     margin-bottom: 2em;
   }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 370px) {
   /*Video Espacio precumbre Esmeraldas*/
   .box-video-pre {
     text-align: center;
@@ -200,10 +200,16 @@
   .hotmart__button-checkout {
     width: 65% !important;
   }
+  .button-revive-footer {
+    width: 70%;
+  }
+  .button-revive {
+    min-width: 12.8rem;
+  }
 }
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
   .navbar-expand-lg .navbar-nav .nav-link {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
   /*Video Espacio precumbre Esmeraldas*/
   .box-video-pre {
@@ -211,6 +217,11 @@
   }
   .bg-title-video-pre h1 {
     text-align: center;
+  }
+}
+@media screen and (min-width: 1401px) and (max-width: 1700px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 0.8rem;
   }
 }
 @media screen and (max-width: 763px) {
