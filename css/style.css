@@ -38,7 +38,9 @@ body {
 }
 .dropdown-menu {
   min-width: 12.4rem;
-  margin: 0 1rem 0 1rem;
+}
+.dropdown-precumbre {
+  min-width: 9.2em;
 }
 .navbar-nav {
   font-weight: 600;
@@ -47,7 +49,7 @@ body {
   color: white;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
-  margin: 0 1rem 0 1rem;
+  margin: 0 0.2rem 0 0.2rem;
 }
 .nav-link:hover {
   border-bottom: 2px solid white;
@@ -625,7 +627,7 @@ button:focus:not(:focus-visible) {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  padding-top: 1emvideo-iframe-news;
+  padding-top: 1em;
 }
 .galery {
   padding-top: 4em;
