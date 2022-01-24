@@ -175,6 +175,9 @@
   .col-padding {
     width: 100%;
   }
+  .carousel-cumbre {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 990px) and (max-width: 1000px) {
   /*Navbar*/
@@ -188,6 +191,15 @@
     font-size: 8px;
   }
 }
+@media screen and (min-width: 470px) and (max-width: 767px) {
+  .carousel-cumbre {
+    width: 100%;
+  }
+  .galery {
+    padding-top: 3rem;
+  }
+}
+
 @media screen and (min-width: 470px) and (max-width: 1000px) {
   /*Navbar*/
   .button-revive-precumbre {
@@ -221,9 +233,6 @@
   /*Precumbre esmeraldas*/
   .title-galery-precumbre h1 {
     margin-top: 3rem;
-  }
-  .galery {
-    padding-top: 3rem;
   }
   .col-padding {
     width: 100%;

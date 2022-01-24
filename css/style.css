@@ -187,7 +187,7 @@ button:focus:not(:focus-visible) {
   color: #dd44df;
 }
 .container-text-section {
-  margin-top: 4em;
+  margin-top: 6em;
 }
 .section-text-cmm {
   margin-top: 2em;
@@ -635,20 +635,6 @@ button:focus:not(:focus-visible) {
   padding-bottom: 5em;
 }
 
-/*Team Carousel Photos*/
-.title-galery h1 {
-  font-size: 50px;
-  font-weight: 800;
-  background: linear-gradient(#82008e, #d20183);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-  padding-top: 1em;
-}
-.galery {
-  padding-top: 4em;
-  padding-bottom: 2em;
-}
 /*Embajadoras*/
 .row-embajadoras {
   padding: 60px 0;
@@ -997,4 +983,7 @@ footer a:hover {
 }
 #gallery-modal .modal-img {
   width: 100%;
+}
+.carousel-cumbre {
+  width: 204%;
 }
