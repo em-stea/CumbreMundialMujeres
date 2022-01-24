@@ -7,7 +7,7 @@
     text-align: center;
   }
   .button-revive-precumbre {
-    padding: 9px 16px 9px 16px;
+    padding: 9px 43px 9px 43px !important;
     margin-bottom: 1rem !important;
   }
   /*Countdown Counter*/
@@ -180,7 +180,8 @@
 @media screen and (min-width: 470px) and (max-width: 1000px) {
   /*Navbar*/
   .button-revive-precumbre {
-    padding: 9px 16px 9px 16px;
+    padding: 9px 43px 9px 43px !important;
+    margin-bottom: 1rem !important;
   }
   /*Video Espacio precumbre Esmeraldas*/
   .box-video-pre {
