@@ -37,13 +37,13 @@ body {
   background-color: #3c1486;
 }
 .dropdown-menu {
-  min-width: 12.4rem;
-}
-.dropdown-menu-footer {
-  min-width: 15.3rem;
+  min-width: 10.5rem;
 }
 .dropdown-precumbre {
-  min-width: 9.2em;
+  min-width: 6.6em;
+}
+.dropdown-menu-footer {
+  min-width: 15rem;
 }
 .navbar-nav {
   font-weight: 600;
@@ -68,6 +68,19 @@ body {
   font-weight: 600;
 }
 .button-revive:hover {
+  background: white;
+  color: #3c1486 !important;
+}
+.button-revive-precumbre {
+  background: linear-gradient(to right, #bf0076, #b203a4);
+  padding: 9px 16px 9px 16px !important;
+  border-radius: 2px;
+  font-size: 16px;
+  box-shadow: 4px 4px 3px 0px rgb(0 0 0 / 18%);
+  color: white;
+  font-weight: 600;
+}
+.button-revive-precumbre:hover {
   background: white;
   color: #3c1486 !important;
 }

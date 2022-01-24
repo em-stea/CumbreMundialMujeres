@@ -6,6 +6,10 @@
   .button-register {
     text-align: center;
   }
+  .button-revive-precumbre {
+    padding: 9px 16px 9px 16px;
+    margin-bottom: 1rem !important;
+  }
   /*Countdown Counter*/
   .simply-section {
     width: 100px;
@@ -161,7 +165,23 @@
     width: 65% !important;
   }
 }
+@media screen and (min-width: 990px) and (max-width: 1000px) {
+  /*Navbar*/
+  .menu {
+    font-size: 8px;
+  }
+  .button-revive {
+    font-size: 8px;
+  }
+  .button-revive-precumbre {
+    font-size: 8px;
+  }
+}
 @media screen and (min-width: 470px) and (max-width: 1000px) {
+  /*Navbar*/
+  .button-revive-precumbre {
+    padding: 9px 16px 9px 16px;
+  }
   /*Video Espacio precumbre Esmeraldas*/
   .box-video-pre {
     text-align: center;
