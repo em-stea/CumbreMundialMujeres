@@ -164,6 +164,17 @@
   .btn-entrada-gratis {
     width: 65% !important;
   }
+
+  /*Precumbre esmeraldas*/
+  .title-galery-precumbre h1 {
+    margin-top: 3rem;
+  }
+  .galery {
+    padding-top: 3rem;
+  }
+  .col-padding {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 990px) and (max-width: 1000px) {
   /*Navbar*/
@@ -206,6 +217,16 @@
   /*Counter Banner*/
   .box-counter div {
     margin-bottom: 2em;
+  }
+  /*Precumbre esmeraldas*/
+  .title-galery-precumbre h1 {
+    margin-top: 3rem;
+  }
+  .galery {
+    padding-top: 3rem;
+  }
+  .col-padding {
+    width: 100%;
   }
 }
 @media screen and (max-width: 370px) {
