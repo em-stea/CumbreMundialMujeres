@@ -963,6 +963,20 @@ footer a:hover {
   text-transform: uppercase;
   font-size: 2em;
 }
+/*Cumbre 2021*/
+.cobertura-link {
+  text-decoration: none;
+  color: white;
+  background-color: #3c1486;
+  border-radius: 50px;
+  padding: 1.5rem 4rem;
+  font-size: 20px;
+}
+.cobertura-link:hover {
+  background-color: #b203a4;
+  color: white;
+}
+
 /*Precumbre Esmeraldas*/
 .gallery-item {
   max-width: 100%;
